@@ -8,6 +8,16 @@ One important motivation is the experience of people with **autism spectrum cond
 
 No diagnosis is needed to use applications built with this library, and there should be no requirement to disclose one. We encourage product teams to involve disabled people directly in testing rather than treating the library as proof that an app is accessible.
 
+## The longer-term 360-degree workflow
+
+The broader ambition is an application that supports the *whole* food routine rather than offering one more disconnected to-do list:
+
+**Scan food → see fridge/pantry inventory and best-before dates → find recipes from what is available → make a flexible meal plan → identify missing ingredients → compare trustworthy local regular prices and offers → shop → update inventory.**
+
+For people who find executive-function demands, switching between tasks, unpredictable changes or cognitive overload difficult, joining these steps could reduce repeated decisions. People differ: reminders, rewards, notification intensity, visual density and planning detail should be adjustable, and using the app should not require a diagnosis or a perfectly maintained inventory.
+
+Grocery Price Core is the **publicly reusable price-information component** for developers exploring such experiences. It is not the full 360-degree application. Pantry scanning, recipe suggestions, inventory, meal planning, shopping interfaces and clinical/accessibility validation are outside the present library's scope. Any separate application and its source code may remain private.
+
 ## Why price semantics matter
 
 A price comparison that labels an online pickup price as an in-store regular price can make a shopping plan unreliable. Presenting an unknown price as zero can produce misleading savings and unexpected costs. A price from an expired offer may create avoidable surprises.
