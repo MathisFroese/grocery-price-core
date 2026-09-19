@@ -49,6 +49,23 @@ print(result.status.value, result.cheaper, result.savings_per_unit, result.base_
 
 The caller must establish that goods are genuinely equivalent. This package does not infer product identity from names or brands, check retailer coverage, guarantee current shelf prices, or round non-terminating divisions for display. A price's source and observation date are recorded; the caller must decide whether a non-offer observation is fresh enough for the intended use.
 
+## The wider vision: from pantry to plate
+
+> **Do not ask people to become better organizers; reduce how much organizing they have to do.**
+
+Grocery Price Core is one small, reusable building block for a future **360-degree food-planning experience**. An application built around that vision could:
+
+1. Scan barcodes to help record what is in the fridge and pantry, with an easy way to correct missing or uncertain information.
+2. Track quantities and best-before dates, highlighting food that could be used soon.
+3. Suggest recipes based on what is already available, dietary needs and available energy.
+4. Turn flexible meal plans into a shopping list for what is missing.
+5. Compare verified local regular prices and offers, with clear sources, dates and store/channel distinctions.
+6. Update the inventory after shopping and help people resume when plans change.
+
+The aim is to connect these steps so that people do not have to coordinate multiple apps, remember every item or repeatedly calculate prices by hand. This may be particularly valuable for some disabled people, including people on the autism spectrum and people with ADHD, while remaining useful to anyone.
+
+**Scope boundary:** This is a product vision, **not a list of features implemented in Grocery Price Core**. The public library currently handles price observations and comparison primitives only. It does not scan barcodes, maintain a pantry, suggest recipes, plan meals or provide a finished accessible app. A separate application can remain private; its code and commercial future are not licensed by this repository.
+
 ## Project and public value
 
 **Accessibility and disability inclusion are core motivations.** People on the autism spectrum (including those who use the term Asperger's) and people with ADHD may face additional effort in planning, comparing prices, switching tasks and handling unexpected changes. Clear distinctions between regular prices, offers, estimates and unknowns can help developers build more predictable, lower-effort grocery and budgeting experiences. This library is useful for everyone and does not require anyone to disclose a diagnosis. Its possible benefits are **design goals, not measured clinical or accessibility outcomes**. No third-party usage, reviews or download numbers are claimed.
