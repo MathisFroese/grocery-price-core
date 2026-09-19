@@ -51,7 +51,9 @@ The caller must establish that goods are genuinely equivalent. This package does
 
 ## Project and public value
 
-Price provenance is useful to shopping, budgeting and food-rescue tools, especially where users benefit from clearly distinguished information and fewer ambiguous decisions. Accessibility and relevance are **design goals, not proven impact claims**. No third-party usage, reviews or download numbers are claimed.
+**Accessibility and disability inclusion are core motivations.** People on the autism spectrum (including those who use the term Asperger's) and people with ADHD may face additional effort in planning, comparing prices, switching tasks and handling unexpected changes. Clear distinctions between regular prices, offers, estimates and unknowns can help developers build more predictable, lower-effort grocery and budgeting experiences. This library is useful for everyone and does not require anyone to disclose a diagnosis. Its possible benefits are **design goals, not measured clinical or accessibility outcomes**. No third-party usage, reviews or download numbers are claimed.
+
+Read [Accessibility and public benefit](ACCESSIBILITY_AND_PUBLIC_BENEFIT.md) for concrete examples, limitations and responsible evaluation.
 
 For contribution guidelines, security reports, license scope and maintenance goals see [CONTRIBUTING.md](CONTRIBUTING.md), [SECURITY.md](SECURITY.md), [LICENSING_DECISION.md](LICENSING_DECISION.md) and [MAINTAINER_PLAN.md](MAINTAINER_PLAN.md).
 
