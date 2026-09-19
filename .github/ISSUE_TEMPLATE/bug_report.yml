@@ -1,0 +1,24 @@
+name: Bug report
+about: Report a reproducible issue using synthetic data
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "Do not post real household data, tokens or vulnerability details. See SECURITY.md for sensitive findings."
+  - type: textarea
+    id: observed
+    attributes:
+      label: Actual behavior
+      description: Include a minimal synthetic example.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Python and package versions
